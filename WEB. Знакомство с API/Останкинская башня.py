@@ -1,6 +1,7 @@
 import sys
 from Samples.distance import lonlat_distance
 from Samples.geocoder import get_coordinates
+import math
 
 
 def calc_antenna_height(distance, transmitter_height):
