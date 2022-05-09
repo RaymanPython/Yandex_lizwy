@@ -1,0 +1,24 @@
+git checkout master
+git merge origin/hat
+git merge boots_buttons
+git diff master origin/demo
+
+# Создали в своем GitHub-аккаунте репозиторий human
+
+git remote add student https://github.com/RaymanPython/human.git
+git push student master
+
+# Видим изменения в WEB-интерфейсе github.
+# 10 коммитов в удаленном репозитории
+# комментарии:
+git log --oneline
+33868a9 (HEAD -> master, origin/master, origin/HEAD) Merge branch 'boots_buttons'
+68707b9 Merge remote-tracking branch 'origin/hat'
+85f1ab8 Merge remote-tracking branch 'origin/buttons' into boots_buttons
+2fb426e Merge remote-tracking branch 'origin/boots' into boots_buttons
+df455a7 fix readme
+1db7b7a dots
+079fa1b README added
+152f859 boots
+949c4a1 heat added
+7d5cd9d init

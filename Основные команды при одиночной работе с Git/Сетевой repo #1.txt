@@ -1,0 +1,14 @@
+cd ~
+mkdir git_lab1_lesson2
+cd git_lab1_lesson2
+git clone https://github.com/YandexLyceum/human.git .
+git branch -r
+cat human.txt
+git diff origin/boots human.txt
+git diff origin/buttons human.txt
+git diff origin/demo human.txt
+git diff origin/hat human.txt
+git checkout -b boots_buttons
+git merge origin/boots
+git merge origin/buttons
+git checkout master
