@@ -10,3 +10,4 @@ while x != 0:
         print(y)
         s1 = y
 print(s - s1)
+# не решена
