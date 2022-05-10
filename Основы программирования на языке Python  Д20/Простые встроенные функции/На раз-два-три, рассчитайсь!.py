@@ -1,0 +1,7 @@
+x = int(input())
+y = int(input())
+z = int(input())
+a = sorted([x, y, z])
+print(a[2])
+print(a[1])
+print(a[0])
